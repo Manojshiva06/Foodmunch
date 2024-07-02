@@ -1,0 +1,150 @@
+
+.cards1{
+    background: whitesmoke;
+}
+.img1{
+    
+    height: 20% !important;
+    width: 20% !important;
+    
+}
+
+.after{
+    
+    justify-content:center;
+    background: whitesmoke;
+    justify-content: center;
+    align-items: center;
+  
+}
+.offer{
+    margin-top: 15px;
+    background: white;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.gift{
+    display: flex;
+    background-color: rgb(225, 225, 80);
+    justify-content: center;
+    align-items: center;
+ 
+}
+.custom{
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.social {
+    
+    text-align: center;
+    margin: 10px;
+    
+   
+}
+.social svg{
+    justify-content: space-around;
+}
+.footer{
+    text-align: center;
+    background: rgb(33, 30, 30);
+    color: white;
+    font-size: 6px;
+    margin-top: 20px;
+}
+.s{
+    display: flex;
+    padding: 5px;
+    border-radius:20px;
+    
+}
+.card{
+    border-radius: 20%;   
+    margin-bottom: 10px;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.hero-section {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png'); /* Update the path as needed */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 1;
+}
+
+.hero-section h1, .hero-section p, .hero-section .btn {
+    z-index: 2;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+.logo{
+    margin-left: 70px;
+}
+
+.menu{
+    margin-bottom: 30px;
+}
+.payments{
+    padding-left: 30px;
+}
+
+.good{
+    position: relative;
+    text-align: center;
+}
+
+.inimage{
+ 
+}
+.delivery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.nav-link:hover{
+    background-color: orange;
+    color: white; 
+  }
+  .nav-link{
+    padding: 10px;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+    align-items: flex-end;
+
+  }
